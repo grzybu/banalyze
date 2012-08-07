@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('Europe/Warsaw');
 
 // Define path to application directory
 defined('APPLICATION_PATH')
@@ -8,6 +9,8 @@ defined('APPLICATION_PATH')
 defined('APPLICATION_ENV')
     || define('APPLICATION_ENV', (getenv('APPLICATION_ENV') ? getenv('APPLICATION_ENV') : 'production'));
 
+defined('DATA_PATH')
+    || define('DATA_PATH', realpath(APPLICATION_PATH . '/../data'));
 // Ensure library/ is on include_path
 set_include_path(implode(PATH_SEPARATOR, array(
     realpath(APPLICATION_PATH . '/../library'),
