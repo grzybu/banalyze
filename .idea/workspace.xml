@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9835bba-f9ae-48af-a8c4-53bdf513f88f" name="Default" comment="" />
+    <list default="true" id="c9835bba-f9ae-48af-a8c4-53bdf513f88f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <list id="e8d1b26c-db9b-4922-a936-fb213267ded6" name="New changelist" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/images/IMG_4323.jpg" afterPath="$PROJECT_DIR$/data/images/IMG_4323.jpg" />
     </list>
@@ -28,7 +30,7 @@
       <file leaf-file-name="list-tasks.phtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/scripts/bloodtest/list-tasks.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="-3.9615386">
+            <state line="13" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -37,7 +39,7 @@
       <file leaf-file-name="Patients.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/DbTable/Patients.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="25" selection-start="328" selection-end="328" vertical-scroll-proportion="-7.8461537">
+            <state line="12" column="25" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -46,7 +48,7 @@
       <file leaf-file-name="Result.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/Result.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="40" selection-start="276" selection-end="276" vertical-scroll-proportion="-7.1923075">
+            <state line="11" column="40" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -55,7 +57,7 @@
       <file leaf-file-name="IndexController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="37" selection-start="494" selection-end="494" vertical-scroll-proportion="-11.769231">
+            <state line="18" column="37" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -64,7 +66,7 @@
       <file leaf-file-name="Patient.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/Patient.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="18" selection-start="1926" selection-end="1926" vertical-scroll-proportion="-13.5">
+            <state line="94" column="18" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,7 +75,7 @@
       <file leaf-file-name="AbstractModel.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/AbstractModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="20" selection-start="2288" selection-end="2288" vertical-scroll-proportion="0.65688074">
+            <state line="108" column="20" selection-start="2288" selection-end="2288" vertical-scroll-proportion="0.40733945">
               <folding />
             </state>
           </provider>
@@ -82,7 +84,7 @@
       <file leaf-file-name="Filter.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../ZendServer/share/ZendFramework/library/Zend/Filter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="786" selection-end="786" vertical-scroll-proportion="-3.9230769">
+            <state line="24" column="0" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,7 +93,7 @@
       <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/BApp/Model/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="14" selection-start="92" selection-end="92" vertical-scroll-proportion="-3.2692308">
+            <state line="5" column="14" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -177,6 +179,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -413,24 +425,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -496,12 +498,11 @@
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26661265" sideWeight="0.5146104" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26661265" sideWeight="0.47402596" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27147487" sideWeight="0.5211039" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27147487" sideWeight="0.46753246" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.49756888" order="7" side_tool="true" content_ui="tabs" />
@@ -511,6 +512,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -575,9 +577,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/application/forms/ImportResult.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="55" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="10" column="55" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/configs/navigation.ini">
@@ -587,9 +587,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/layouts/scripts/layout.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="10" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="17" column="10" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/layout.css">
@@ -599,86 +597,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/layouts/scripts/auth.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/scripts/auth/login.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/scripts/bloodtest/list-tasks.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="-3.9615386">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Result.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="276" selection-end="276" vertical-scroll-proportion="-7.1923075">
-          <folding />
-        </state>
+        <state line="7" column="28" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../ZendServer/share/ZendFramework/library/Zend/Filter/Interface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../ZendServer/share/ZendFramework/library/Zend/Filter.php">
+    <entry file="file://$PROJECT_DIR$/../../../ZendServer/share/ZendFramework/library/Zend/Debug.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="786" selection-end="786" vertical-scroll-proportion="-3.9230769">
+        <state line="30" column="6" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.34862384" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/scripts/bloodtest/list-tasks.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/DbTable/Patients.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="25" selection-start="328" selection-end="328" vertical-scroll-proportion="-7.8461537">
+        <state line="12" column="25" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../ZendServer/share/ZendFramework/library/Zend/Debug.php">
+    <entry file="file://$PROJECT_DIR$/application/models/Result.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="6" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.34862384">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/BApp/Model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="14" selection-start="92" selection-end="92" vertical-scroll-proportion="-3.2692308">
+        <state line="11" column="40" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="37" selection-start="494" selection-end="494" vertical-scroll-proportion="-11.769231">
+        <state line="18" column="37" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/Patient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="18" selection-start="1926" selection-end="1926" vertical-scroll-proportion="-13.5">
+        <state line="94" column="18" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/AbstractModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="20" selection-start="2288" selection-end="2288" vertical-scroll-proportion="0.65688074">
+        <state line="108" column="20" selection-start="2288" selection-end="2288" vertical-scroll-proportion="0.40733945">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../ZendServer/share/ZendFramework/library/Zend/Filter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/BApp/Model/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="14" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/scripts/auth/login.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
   </component>
