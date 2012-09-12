@@ -15,15 +15,31 @@
         <controllerFile controllerName="Bloodtest">
           <actionMethod actionName="index"/>
           <actionMethod actionName="import"/>
+          <actionMethod actionName="listTasks"/>
+        </controllerFile>
+        <controllerFile controllerName="Auth">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="login"/>
+          <actionMethod actionName="logout"/>
         </controllerFile>
       </controllersDirectory>
-      <formsDirectory enabled="false"/>
+      <formsDirectory>
+        <formFile formName="Login"/>
+        <formFile formName="ImportResult"/>
+      </formsDirectory>
       <layoutsDirectory>
         <layoutScriptsDirectory>
           <layoutScriptFile layoutName="layout"/>
         </layoutScriptsDirectory>
       </layoutsDirectory>
-      <modelsDirectory/>
+      <modelsDirectory>
+        <dbTableDirectory>
+          <dbTableFile dbTableName="Patients"/>
+          <dbTableFile dbTableName="Results"/>
+        </dbTableDirectory>
+        <modelFile modelName="AbstractModel"/>
+        <modelFile modelName="Patient"/>
+      </modelsDirectory>
       <modulesDirectory>
         <moduleDirectory moduleName="backend">
           <apisDirectory enabled="false"/>
@@ -52,6 +68,18 @@
           </viewControllerScriptsDirectory>
           <viewControllerScriptsDirectory forControllerName="Bloodtest">
             <viewScriptFile forActionName="import"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Auth">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Auth">
+            <viewScriptFile forActionName="login"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Auth">
+            <viewScriptFile forActionName="logout"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Bloodtest">
+            <viewScriptFile forActionName="listTasks"/>
           </viewControllerScriptsDirectory>
         </viewScriptsDirectory>
         <viewHelpersDirectory/>

@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+
+#loginForm {
+    display: block;
+    width: 200px;
+    height: 300px;
+    margin: auto;
+}
+
+table#ocr-tasks {
+    font-family: Georgia, serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: -1px;
+    line-height: 1.2em;
+    border-collapse:collapse;
+    text-align:center;
+}
+
+#ocr-tasks thead th, #ocr-tasks tfoot td{
+    padding:4px 2px 8px 2px;
+    color:#fff;
+    font-size: 12px;
+    background-color:#222;
+    font-weight:normal;
+    border-right:1px dotted #666;
+    border-top:3px solid #666;
+    -moz-box-shadow:0px -1px 4px #000;
+    -webkit-box-shadow:0px -1px 4px #000;
+    box-shadow:0px -1px 4px #000;
+    text-shadow:0px 0px 1px #fff;
+    text-shadow:1px 1px 1px #000;
+}
+
+#ocr-tasks tfoot th{
+    padding:10px;
+    font-size:11px;
+    text-transform:uppercase;
+    color:#888;
+}

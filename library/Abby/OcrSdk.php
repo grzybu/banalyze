@@ -112,11 +112,37 @@ class Abby_OcrSdk
             return array('status' => $status, 'resultUrl' => (string) $xml->task->attributes()->resultUrl);
         }else {
             return $status;
+    }
+    }
+
+    public function listTasks()
+    {
+        $client = $this->getHttpClient();
+        $client->setMethod(Zend_Http_Client::GET);
+        $client->setUri("http://cloud.ocrsdk.com/listTasks");
+
+        $response = $client->request(Zend_Http_Client::GET);
+
+        $xml = simplexml_load_string($response->getBody());
+
+
+        $array = array();
+
+        foreach($xml as $taskNode)
+        {
+            $task = array();
+
+            foreach( $taskNode->attributes() as $key=>$val)
+            {
+                $task[$key] = (string) $val;
+            }
+
+            $array[] = $task;
         }
 
-
-
+        return $array;
 
 
     }
+
 }
