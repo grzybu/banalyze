@@ -19,6 +19,8 @@ class Application_Model_Result extends Application_Model_AbstractModel
     protected $_hct;
     protected $_hgb;
     protected $_mchc;
+    protected $_mcv;
+    protected $_mch;
     protected $_wbc;
 
 
@@ -101,6 +103,36 @@ class Application_Model_Result extends Application_Model_AbstractModel
     public function getMchc()
     {
         return $this->_mchc;
+    }
+
+    public function setWbc($wbc)
+    {
+        $this->_wbc = $wbc;
+    }
+
+    public function getWbc()
+    {
+        return $this->_wbc;
+    }
+
+    public function setMch($mch)
+    {
+        $this->_mch = $mch;
+    }
+
+    public function getMch()
+    {
+        return $this->_mch;
+    }
+
+    public function setMcv($mcv)
+    {
+        $this->_mcv = $mcv;
+    }
+
+    public function getMcv()
+    {
+        return $this->_mcv;
     }
 
 

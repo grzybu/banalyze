@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9835bba-f9ae-48af-a8c4-53bdf513f88f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/helpers/GetUser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/BApp/Helper/Math.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/layoutScripts.js" />
-      <change type="MOVED" beforePath="C:\Program Files\Zend\Apache2\htdocs\banalyze\application\controllers\BloodtestController.php" afterPath="$PROJECT_DIR$/application/modules/backend/controllers/BloodtestController.php" />
-      <change type="MOVED" beforePath="C:\Program Files\Zend\Apache2\htdocs\banalyze\application\views\scripts\bloodtest\import.phtml" afterPath="$PROJECT_DIR$/application/modules/backend/views/scripts/bloodtest/import.phtml" />
-      <change type="MOVED" beforePath="C:\Program Files\Zend\Apache2\htdocs\banalyze\application\views\scripts\bloodtest\index.phtml" afterPath="$PROJECT_DIR$/application/modules/backend/views/scripts/bloodtest/index.phtml" />
-      <change type="MOVED" beforePath="C:\Program Files\Zend\Apache2\htdocs\banalyze\application\views\scripts\bloodtest\list-tasks.phtml" afterPath="$PROJECT_DIR$/application/modules/backend/views/scripts/bloodtest/list-tasks.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.zfproject.xml" afterPath="$PROJECT_DIR$/.zfproject.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Bootstrap.php" afterPath="$PROJECT_DIR$/application/Bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/configs/application.ini" afterPath="$PROJECT_DIR$/application/configs/application.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/configs/navigation.ini" afterPath="$PROJECT_DIR$/application/configs/navigation.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/IndexController.php" afterPath="$PROJECT_DIR$/application/controllers/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/forms/ImportResult.php" afterPath="$PROJECT_DIR$/application/forms/ImportResult.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/layouts/scripts/layout.phtml" afterPath="$PROJECT_DIR$/application/layouts/scripts/layout.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/Patient.php" afterPath="$PROJECT_DIR$/application/models/Patient.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/Result.php" afterPath="$PROJECT_DIR$/application/models/Result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/layout.css" afterPath="$PROJECT_DIR$/public/css/layout.css" />
     </list>
     <list id="e8d1b26c-db9b-4922-a936-fb213267ded6" name="New changelist" comment="" />
     <ignored path="banalyze.iws" />
@@ -45,16 +29,7 @@
       <file leaf-file-name="WhiteBloodCell.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/WhiteBloodCell.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="18" selection-start="106" selection-end="106" vertical-scroll-proportion="-2.6153846">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractParam.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/AbstractParam.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="93" selection-end="93" vertical-scroll-proportion="18.384615">
+            <state line="12" column="32" selection-start="342" selection-end="342" vertical-scroll-proportion="-7.8461537">
               <folding />
             </state>
           </provider>
@@ -63,16 +38,68 @@
       <file leaf-file-name="RedBloodCell.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/RedBloodCell.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="14" selection-start="223" selection-end="1431" vertical-scroll-proportion="-12.576923">
+            <state line="461" column="0" selection-start="12213" selection-end="12213" vertical-scroll-proportion="-13.884615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Hemoglobin.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/Hemoglobin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="17" selection-start="393" selection-end="393" vertical-scroll-proportion="-11.115385">
+              <folding>
+                <element signature="e#20918#22095#1" expanded="false" />
+                <element signature="e#22120#23303#1" expanded="false" />
+                <element signature="e#23328#24518#1" expanded="false" />
+                <element signature="e#23356#23449#1" expanded="false" />
+                <element signature="e#24543#25729#1" expanded="false" />
+                <element signature="e#25754#26941#1" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractParam.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/AbstractParam.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="11" selection-start="1021" selection-end="1021" vertical-scroll-proportion="-8.153846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hematocrit.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/Hematocrit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="863" column="0" selection-start="23463" selection-end="23463" vertical-scroll-proportion="-20.653847">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="55" selection-start="670" selection-end="670" vertical-scroll-proportion="0.57168144">
+            <state line="19" column="70" selection-start="685" selection-end="685" vertical-scroll-proportion="-12.423077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BloodtestController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/modules/analyze/controllers/BloodtestController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="552" selection-end="552" vertical-scroll-proportion="0.18899083">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Result.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/Result.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="51" selection-start="329" selection-end="329" vertical-scroll-proportion="-7.576923">
               <folding />
             </state>
           </provider>
@@ -100,14 +127,14 @@
         <option value="$PROJECT_DIR$/application/modules/analyze/views/scripts/bloodtest/index.phtml" />
         <option value="$PROJECT_DIR$/application/models/Patient.php" />
         <option value="$PROJECT_DIR$/application/forms/Analize.php" />
-        <option value="$PROJECT_DIR$/application/models/Result.php" />
-        <option value="$PROJECT_DIR$/application/modules/analyze/controllers/BloodtestController.php" />
         <option value="$PROJECT_DIR$/application/models/Hematocrit.php" />
-        <option value="$PROJECT_DIR$/application/models/AbstractParam.php" />
         <option value="$PROJECT_DIR$/application/models/Hemoglobin.php" />
-        <option value="$PROJECT_DIR$/application/models/RedBloodCell.php" />
         <option value="$PROJECT_DIR$/application/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/application/models/WhiteBloodCell.php" />
+        <option value="$PROJECT_DIR$/application/models/RedBloodCell.php" />
+        <option value="$PROJECT_DIR$/application/models/AbstractParam.php" />
+        <option value="$PROJECT_DIR$/application/models/Result.php" />
+        <option value="$PROJECT_DIR$/application/modules/analyze/controllers/BloodtestController.php" />
       </list>
     </option>
   </component>
@@ -353,46 +380,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="banalyze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="banalyze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="banalyze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="banalyze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -499,18 +486,23 @@
       <created>1347470253575</created>
       <updated>1347470253575</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="20120911&#10;">
+      <created>1348535059242</created>
+      <updated>1348535059242</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.49675852" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15964344" sideWeight="0.54058444" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1993517" sideWeight="0.99404764" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1993517" sideWeight="0.4788961" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1993517" sideWeight="0.50974023" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958949" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -521,7 +513,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.49675852" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -627,23 +618,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Result.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="20" selection-start="459" selection-end="459" vertical-scroll-proportion="-12.423077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/AbstractModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="26" selection-start="208" selection-end="208" vertical-scroll-proportion="0.34311926">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/analyze/controllers/BloodtestController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="755" selection-end="755" vertical-scroll-proportion="0.5876106">
           <folding />
         </state>
       </provider>
@@ -655,9 +632,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="70" selection-start="685" selection-end="685" vertical-scroll-proportion="-12.423077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/RedBloodCell.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="461" column="0" selection-start="12213" selection-end="12213" vertical-scroll-proportion="-13.884615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/Hemoglobin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="162" selection-end="162" vertical-scroll-proportion="0.27079645">
+        <state line="17" column="17" selection-start="393" selection-end="393" vertical-scroll-proportion="-11.115385">
           <folding>
             <element signature="e#20918#22095#1" expanded="false" />
             <element signature="e#22120#23303#1" expanded="false" />
@@ -669,37 +660,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Hematocrit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="863" column="0" selection-start="23463" selection-end="23463" vertical-scroll-proportion="25.966372">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/RedBloodCell.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="14" selection-start="223" selection-end="1431" vertical-scroll-proportion="-12.576923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/AbstractParam.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="93" selection-end="93" vertical-scroll-proportion="18.384615">
+        <state line="54" column="11" selection-start="1021" selection-end="1021" vertical-scroll-proportion="-8.153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Hematocrit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="863" column="0" selection-start="23463" selection-end="23463" vertical-scroll-proportion="-20.653847">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/WhiteBloodCell.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="106" selection-end="106" vertical-scroll-proportion="-2.6153846">
+        <state line="12" column="32" selection-start="342" selection-end="342" vertical-scroll-proportion="-7.8461537">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/IndexController.php">
+    <entry file="file://$PROJECT_DIR$/application/models/Result.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="55" selection-start="670" selection-end="670" vertical-scroll-proportion="0.57168144">
+        <state line="13" column="51" selection-start="329" selection-end="329" vertical-scroll-proportion="-7.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/analyze/controllers/BloodtestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="552" selection-end="552" vertical-scroll-proportion="0.18899083">
           <folding />
         </state>
       </provider>
