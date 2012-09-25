@@ -1,12 +1,68 @@
 @charset "utf-8";
 
-
+h3 {
+    margin-top: 0;
+}
 #loginForm {
     display: block;
     width: 200px;
     height: 300px;
     margin: auto;
 }
+
+#container {
+
+width:100%; margin:auto;
+    }
+
+#nav {
+    width:250px;
+    height:250px;
+    float:left;
+}
+
+#nav ul li a {
+    width: 100%;
+    display:block;
+    text-indent: 30px;
+}
+
+#nav ul {
+    list-style: none;
+}
+
+#nav ul.ui-accordion-content {
+    padding-left: 0;
+}
+
+#nav ul.ui-accordion-content {
+    width: 212px;
+}
+
+#content {
+    width:700px;
+
+    float:left;
+    margin-left: 10px;
+
+}
+
+#logininfo {
+    position: absolute;
+    width: 300px;
+    border: 1px solid #CCC;
+    display: block;
+    right: 0;
+    top: 0;
+}
+
+#navCol .ui-accordion-header {
+    display:block; padding-left:40px;
+}
+.ui-accordion-content a {
+    font-size:70%; text-decoration:none; display:block;
+}
+.ui-accordion-content a:hover { text-decoration:underline; }
 
 table#ocr-tasks {
     font-family: Georgia, serif;

@@ -11,7 +11,7 @@ class Application_Model_Patient extends Application_Model_AbstractModel
     protected $_uq_patient_id;
     protected $_year_of_birth;
     protected $_sex;
-    protected $_add_date;
+    protected $_add_date = null;
 
     public function __set($name, $value)
     {
@@ -89,13 +89,18 @@ class Application_Model_Patient extends Application_Model_AbstractModel
         $sex = array(self::PATIENT_SEX_K, self::PATIENT_SEX_M);
 
         $this->setSex($sex[array_rand($sex)]);
-        $this->setYearOfBirth(rand(date('Y') - 100, date('Y')));
+        $this->setYearOfBirth(rand(18,74));
 
 
         $this->save();
         return $this;
 
 
+    }
+
+    public function getAge()
+    {
+        return floor( (strtotime(date('Y-m-d')) - strtotime($this->_year_of_birth)) / 31556926);
     }
 
 

@@ -10,14 +10,14 @@ class IndexController extends Zend_Controller_Action
 
     public function indexAction()
     {
-
-       /* $patient = new Application_Model_DbTable_Patients();
-        $sex = array("K", "M");
-        Zend_Debug::dump($patient->add(strtoupper(uniqid("P")), rand(1912, date("Y")) ,$sex[array_rand($sex)] )); */
-
-        $patient = new Application_Model_Patient();
-        $patient = $patient->createNewPatient();
-       Zend_Debug::dump($patient);
+        $hemo = new Application_Model_Hematocrit();
+        Zend_Debug::dump($hemo->getRandomValue('K', 21, 10000), "hct");
+        $hgb = new Application_Model_Hemoglobin();
+        Zend_Debug::dump($hgb->getRandomValue('K', 21, 10000), "hgb");
+        $rbc = new Application_Model_RedBloodCell();
+        Zend_Debug::dump($rbc->getRandomValue('M', 23, 1000), "rbc");
+        $wbc = new Application_Model_WhiteBloodCell();
+        Zend_Debug::dump($wbc->getRandomValue("K", 22, 10000), "wbc");
     }
 
 

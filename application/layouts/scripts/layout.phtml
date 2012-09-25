@@ -6,21 +6,34 @@ echo $this->doctype();
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <?php
     echo $this->headTitle();
+    echo $this->jQuery();
+    $this->headScript()->appendFile('/js/layoutScripts.js');
     echo $this->headScript();
-    $this->headLink()->appendStylesheet('/css/layout.css');
+    echo $this->headLink()->appendStylesheet('/css/layout.css');
+
+
+    echo $this->headLink()->appendStylesheet('/css/global.css')
+        ->appendStylesheet('/css/flick/jquery-ui-1.8.23.custom.css');
     echo $this->headLink();
+
     ?>
 </head>
-<body>
-<div id="wrapper">
-    <div id="header">
-        <h1><a href="/"><img src="/images/logo.jpg" width="50px;" /></a></h1>
-    </div>
+<body >
+
+<?php if($user = $this->getUser()):?>
+<div id="logininfo" class="ui-corner-all ui-widget">
+    Zalogowany jako: <?php echo $user->login;?> (<a href="<?php echo $this->url(array('action' =>'logout', 'controller' => 'auth', 'module'=>'default'), 'default');?>">wyloguj</a>)
+</div>
+
+<?php endif;?>
+
+<div id="container" class="ui-helper-clearfix ui-widget ui-helper-reset">
+
     <div id="nav">
         <?php echo $this->navigation()->menu(); ?>&nbsp;
     </div>
 
-    <div id="main">
+    <div id="content" class="ui-widget-content">
         <?php echo $this->layout()->content ?>&nbsp;
     </div>
     <div id="footer">
