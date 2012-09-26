@@ -10,6 +10,7 @@
       <controllersDirectory>
         <controllerFile controllerName="Index">
           <actionMethod actionName="index"/>
+          <actionMethod actionName="korelacje"/>
         </controllerFile>
         <controllerFile controllerName="Error"/>
         <controllerFile controllerName="Bloodtest">
@@ -27,6 +28,8 @@
         <formFile formName="Login"/>
         <formFile formName="ImportResult"/>
         <formFile formName="Analize"/>
+        <formFile formName="Corelations"/>
+        <formFile formName="Hypothesis"/>
       </formsDirectory>
       <layoutsDirectory>
         <layoutScriptsDirectory>
@@ -48,6 +51,7 @@
         <modelFile modelName="RedBloodCell"/>
         <modelFile modelName="WhiteBloodCounts"/>
         <modelFile modelName="WhiteBloodCell"/>
+        <modelFile modelName="Platelet"/>
       </modelsDirectory>
       <modulesDirectory>
         <moduleDirectory moduleName="backend">
@@ -109,6 +113,7 @@
             </controllerFile>
             <controllerFile controllerName="Bloodtest">
               <actionMethod actionName="index"/>
+              <actionMethod actionName="korelacje"/>
             </controllerFile>
           </controllersDirectory>
           <formsDirectory enabled="false"/>
@@ -125,6 +130,9 @@
               </viewControllerScriptsDirectory>
               <viewControllerScriptsDirectory forControllerName="Bloodtest">
                 <viewScriptFile forActionName="index"/>
+              </viewControllerScriptsDirectory>
+              <viewControllerScriptsDirectory forControllerName="Bloodtest">
+                <viewScriptFile forActionName="korelacje"/>
               </viewControllerScriptsDirectory>
             </viewScriptsDirectory>
             <viewHelpersDirectory/>
@@ -157,6 +165,9 @@
           </viewControllerScriptsDirectory>
           <viewControllerScriptsDirectory forControllerName="Bloodtest">
             <viewScriptFile forActionName="listTasks"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="korelacje"/>
           </viewControllerScriptsDirectory>
         </viewScriptsDirectory>
         <viewHelpersDirectory/>

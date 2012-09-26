@@ -6,8 +6,11 @@ echo $this->doctype();
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <?php
     echo $this->headTitle();
+    echo $this->jQuery();
     echo $this->headScript();
     $this->headLink()->appendStylesheet('/css/layout.css');
+    echo $this->headLink()->appendStylesheet('/css/global.css')
+        ->appendStylesheet('/css/flick/jquery-ui-1.8.23.custom.css');
     echo $this->headLink();
     ?>
 </head>

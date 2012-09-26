@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9835bba-f9ae-48af-a8c4-53bdf513f88f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/BApp/Pearson.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/Result.php" afterPath="$PROJECT_DIR$/application/models/Result.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.zfproject.xml" afterPath="$PROJECT_DIR$/.zfproject.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/configs/application.ini" afterPath="$PROJECT_DIR$/application/configs/application.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/configs/navigation.ini" afterPath="$PROJECT_DIR$/application/configs/navigation.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/IndexController.php" afterPath="$PROJECT_DIR$/application/controllers/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/layouts/scripts/auth.phtml" afterPath="$PROJECT_DIR$/application/layouts/scripts/auth.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/Patient.php" afterPath="$PROJECT_DIR$/application/models/Patient.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/scripts/auth/login.phtml" afterPath="$PROJECT_DIR$/application/views/scripts/auth/login.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/scripts/index/index.phtml" afterPath="$PROJECT_DIR$/application/views/scripts/index/index.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/layout.css" afterPath="$PROJECT_DIR$/public/css/layout.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
     </list>
     <list id="e8d1b26c-db9b-4922-a936-fb213267ded6" name="New changelist" comment="" />
     <ignored path="banalyze.iws" />
@@ -26,62 +36,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WhiteBloodCell.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/WhiteBloodCell.php">
+      <file leaf-file-name="navigation.ini" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/configs/navigation.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="32" selection-start="342" selection-end="342" vertical-scroll-proportion="-7.8461537">
+            <state line="41" column="36" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedBloodCell.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/RedBloodCell.php">
+      <file leaf-file-name="Corelations.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/forms/Corelations.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="461" column="0" selection-start="12213" selection-end="12213" vertical-scroll-proportion="-13.884615">
+            <state line="22" column="32" selection-start="589" selection-end="589" vertical-scroll-proportion="-11.269231">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hemoglobin.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/Hemoglobin.php">
+      <file leaf-file-name="Pearson.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/BApp/Pearson.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="17" selection-start="393" selection-end="393" vertical-scroll-proportion="-11.115385">
-              <folding>
-                <element signature="e#20918#22095#1" expanded="false" />
-                <element signature="e#22120#23303#1" expanded="false" />
-                <element signature="e#23328#24518#1" expanded="false" />
-                <element signature="e#23356#23449#1" expanded="false" />
-                <element signature="e#24543#25729#1" expanded="false" />
-                <element signature="e#25754#26941#1" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractParam.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/AbstractParam.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="11" selection-start="1021" selection-end="1021" vertical-scroll-proportion="-8.153846">
+            <state line="39" column="35" selection-start="969" selection-end="969" vertical-scroll-proportion="-23.692308">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hematocrit.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/Hematocrit.php">
+      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/BApp/Model/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="863" column="0" selection-start="23463" selection-end="23463" vertical-scroll-proportion="-20.653847">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/IndexController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="70" selection-start="685" selection-end="685" vertical-scroll-proportion="-12.423077">
+            <state line="8" column="21" selection-start="168" selection-end="183" vertical-scroll-proportion="-5.230769">
               <folding />
             </state>
           </provider>
@@ -90,16 +75,34 @@
       <file leaf-file-name="BloodtestController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/modules/analyze/controllers/BloodtestController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="552" selection-end="552" vertical-scroll-proportion="0.18899083">
+            <state line="96" column="0" selection-start="2680" selection-end="2680" vertical-scroll-proportion="0.76460177">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Result.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/Result.php">
+      <file leaf-file-name="Bootstrap.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/Bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="51" selection-start="329" selection-end="329" vertical-scroll-proportion="-7.576923">
+            <state line="14" column="49" selection-start="439" selection-end="439" vertical-scroll-proportion="-7.1923075">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="33" selection-start="106" selection-end="106" vertical-scroll-proportion="-1.9615384">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.ini" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/configs/application.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,21 +122,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/forms/ImportResult.php" />
-        <option value="$PROJECT_DIR$/application/modules/backend/controllers/UsersController.php" />
-        <option value="$PROJECT_DIR$/application/configs/navigation.ini" />
-        <option value="$PROJECT_DIR$/application/layouts/scripts/layout.phtml" />
-        <option value="$PROJECT_DIR$/public/css/layout.css" />
-        <option value="$PROJECT_DIR$/application/modules/analyze/views/scripts/bloodtest/index.phtml" />
-        <option value="$PROJECT_DIR$/application/models/Patient.php" />
-        <option value="$PROJECT_DIR$/application/forms/Analize.php" />
-        <option value="$PROJECT_DIR$/application/models/Hematocrit.php" />
-        <option value="$PROJECT_DIR$/application/models/Hemoglobin.php" />
-        <option value="$PROJECT_DIR$/application/controllers/IndexController.php" />
-        <option value="$PROJECT_DIR$/application/models/WhiteBloodCell.php" />
-        <option value="$PROJECT_DIR$/application/models/RedBloodCell.php" />
-        <option value="$PROJECT_DIR$/application/models/AbstractParam.php" />
         <option value="$PROJECT_DIR$/application/models/Result.php" />
+        <option value="$PROJECT_DIR$/application/models/Platelet.php" />
+        <option value="$PROJECT_DIR$/application/models/Patient.php" />
+        <option value="$PROJECT_DIR$/application/layouts/scripts/auth.phtml" />
+        <option value="$PROJECT_DIR$/public/css/layout.css" />
+        <option value="$PROJECT_DIR$/application/views/scripts/auth/login.phtml" />
+        <option value="$PROJECT_DIR$/application/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/application/views/scripts/index/index.phtml" />
+        <option value="$PROJECT_DIR$/application/models/AbstractParam.php" />
+        <option value="$PROJECT_DIR$/application/configs/navigation.ini" />
+        <option value="$PROJECT_DIR$/application/forms/Corelations.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/application/configs/application.ini" />
+        <option value="$PROJECT_DIR$/library/BApp/Model/Pearson.php" />
+        <option value="$PROJECT_DIR$/library/BApp/Pearson.php" />
         <option value="$PROJECT_DIR$/application/modules/analyze/controllers/BloodtestController.php" />
       </list>
     </option>
@@ -228,11 +231,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="library" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="BApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,11 +249,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="library" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="BApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="banalyze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="banalyze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -380,24 +401,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="banalyze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="banalyze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="configs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -410,14 +413,16 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Program Files\Zend\Apache2\htdocs\banalyze\data\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files\Zend\Apache2\htdocs\banalyze\library\BApp" />
+      <recent name="C:\Program Files\Zend\Apache2\htdocs\banalyze\library\BApp\Model" />
       <recent name="C:\Program Files\Zend\Apache2\htdocs\banalyze\application\modules\backend\views\scripts" />
       <recent name="C:\Program Files\Zend\Apache2\htdocs\banalyze\application\modules\backend\views" />
       <recent name="C:\Program Files\Zend\Apache2\htdocs\banalyze\application\modules\backend\controllers" />
@@ -437,7 +442,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -490,21 +495,23 @@
       <created>1348535059242</created>
       <updated>1348535059242</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="20120911&#10;">
+      <created>1348555058778</created>
+      <updated>1348555058778</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.49675852" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1993517" sideWeight="0.4788961" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1993517" sideWeight="0.50974023" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20525451" sideWeight="0.47902098" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21150729" sideWeight="0.97979796" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958949" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.49756888" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -513,7 +520,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.49675852" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958949" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -574,123 +583,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/forms/ImportResult.php">
+    <entry file="file://$PROJECT_DIR$/application/layouts/scripts/layout.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="38" selection-start="576" selection-end="591" vertical-scroll-proportion="0.5115044">
+        <state line="8" column="25" selection-start="202" selection-end="225" vertical-scroll-proportion="0.24637681">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/layouts/scripts/auth.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="59" selection-start="146" selection-end="146" vertical-scroll-proportion="-3.2692308">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="42" selection-end="42" vertical-scroll-proportion="0.028764805">
+        <state line="9" column="18" selection-start="133" selection-end="133" vertical-scroll-proportion="0.25888324">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/layouts/scripts/layout.phtml">
+    <entry file="file://$PROJECT_DIR$/application/views/scripts/auth/login.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="71" selection-start="938" selection-end="938" vertical-scroll-proportion="0.38405797">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/layoutScripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="7" selection-start="468" selection-end="468" vertical-scroll-proportion="0.46023688">
-          <folding>
-            <element signature="e#0#157#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/forms/Analize.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.7539823">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/AbstractModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="26" selection-start="208" selection-end="208" vertical-scroll-proportion="0.34311926">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Patient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="40" selection-start="1888" selection-end="1888" vertical-scroll-proportion="0.3539823">
+        <state line="8" column="6" selection-start="233" selection-end="233" vertical-scroll-proportion="0.24070796">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="70" selection-start="685" selection-end="685" vertical-scroll-proportion="-12.423077">
+        <state line="18" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="-11.769231">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/RedBloodCell.php">
+    <entry file="file://$PROJECT_DIR$/application/views/scripts/index/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="461" column="0" selection-start="12213" selection-end="12213" vertical-scroll-proportion="-13.884615">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Hemoglobin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="17" selection-start="393" selection-end="393" vertical-scroll-proportion="-11.115385">
-          <folding>
-            <element signature="e#20918#22095#1" expanded="false" />
-            <element signature="e#22120#23303#1" expanded="false" />
-            <element signature="e#23328#24518#1" expanded="false" />
-            <element signature="e#23356#23449#1" expanded="false" />
-            <element signature="e#24543#25729#1" expanded="false" />
-            <element signature="e#25754#26941#1" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/AbstractParam.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="11" selection-start="1021" selection-end="1021" vertical-scroll-proportion="-8.153846">
+        <state line="62" column="60" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.34867257">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Hematocrit.php">
+    <entry file="file://$PROJECT_DIR$/application/configs/navigation.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="863" column="0" selection-start="23463" selection-end="23463" vertical-scroll-proportion="-20.653847">
+        <state line="41" column="36" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/WhiteBloodCell.php">
+    <entry file="file://$PROJECT_DIR$/application/forms/Corelations.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="32" selection-start="342" selection-end="342" vertical-scroll-proportion="-7.8461537">
+        <state line="22" column="32" selection-start="589" selection-end="589" vertical-scroll-proportion="-11.269231">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Result.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="51" selection-start="329" selection-end="329" vertical-scroll-proportion="-7.576923">
+        <state line="371" column="22" selection-start="9210" selection-end="9210" vertical-scroll-proportion="0.981378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="49" selection-start="439" selection-end="439" vertical-scroll-proportion="-7.1923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="33" selection-start="106" selection-end="106" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/configs/application.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/BApp/Model/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="21" selection-start="168" selection-end="183" vertical-scroll-proportion="-5.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/BApp/Pearson.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="35" selection-start="969" selection-end="969" vertical-scroll-proportion="-23.692308">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/analyze/controllers/BloodtestController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="552" selection-end="552" vertical-scroll-proportion="0.18899083">
+        <state line="96" column="0" selection-start="2680" selection-end="2680" vertical-scroll-proportion="0.76460177">
           <folding />
         </state>
       </provider>

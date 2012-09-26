@@ -82,14 +82,18 @@ class Application_Model_Patient extends Application_Model_AbstractModel
     }
 
 
-    public function createNewPatient()
+    public function createNewPatient($sex = null, $age = null)
     {
         $this->setUqPatientId(strtoupper(uniqid("P")));
 
-        $sex = array(self::PATIENT_SEX_K, self::PATIENT_SEX_M);
+        if(null == $sex) {
+            $sex = array(self::PATIENT_SEX_K, self::PATIENT_SEX_M);
+            $sex = $sex[array_rand($sex)];
+        }
 
-        $this->setSex($sex[array_rand($sex)]);
-        $this->setYearOfBirth(rand(18,74));
+        $this->setSex($sex);
+        if(null == $age)  $age = mt_rand(18,74);
+        $this->setYearOfBirth($age);
 
 
         $this->save();
@@ -101,6 +105,12 @@ class Application_Model_Patient extends Application_Model_AbstractModel
     public function getAge()
     {
         return floor( (strtotime(date('Y-m-d')) - strtotime($this->_year_of_birth)) / 31556926);
+    }
+
+    public function save()
+    {
+        if($this->_add_date == null) $this->_add_date = new Zend_Db_Expr("NOW()");
+        return parent::save();
     }
 
 

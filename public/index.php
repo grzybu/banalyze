@@ -1,5 +1,7 @@
 <?php
 date_default_timezone_set('Europe/Warsaw');
+set_time_limit(60*60);
+ini_set('log_errors_max_len', 0);
 
 // Define path to application directory
 defined('APPLICATION_PATH')
