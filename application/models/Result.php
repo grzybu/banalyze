@@ -137,11 +137,14 @@ class Application_Model_Result extends Application_Model_AbstractModel
 
     public function getBySex($sex = null, $limit = 10){
         $table = $this->getDbTable();
-
-        $where = $table->select()
+        $table = new Application_Model_DbTable_Alldata();
+        $where = $table->select('alldata')
                         ->limit($limit)
                         ->order(new Zend_Db_Expr("RAND()"));
-        if($sex && in_array($sex, "M", "K")) $where->where("sex = ?", $sex);
+        if($sex && in_array($sex, array("M", "K"))) {
+            $where->joinLeft("patients", "patients.id = patient_id", "");
+            $where->where("patients.sex = ?", $sex);
+        }
 
         return $table->fetchAll($where);
 

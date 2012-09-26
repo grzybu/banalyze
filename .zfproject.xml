@@ -41,6 +41,7 @@
           <dbTableFile dbTableName="Patients"/>
           <dbTableFile dbTableName="Results"/>
           <dbTableFile dbTableName="Users"/>
+          <dbTableFile dbTableName="Alldata"/>
         </dbTableDirectory>
         <modelFile modelName="AbstractModel"/>
         <modelFile modelName="Patient"/>

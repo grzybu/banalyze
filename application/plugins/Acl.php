@@ -11,6 +11,8 @@ class Application_Plugin_Acl extends Zend_Controller_Plugin_Abstract
     public function dispatchLoopStartup(Zend_Controller_Request_Abstract $request)
     {
         $user = Zend_Auth::getInstance()->getIdentity();
+        if($request->getControllerName()== 'bloodtest' && $request->getActionName() == 'benchmark') return;
+
         if(null == $user && $request->getControllerName() !== 'auth')
         {
             $redirector = Zend_Controller_Action_HelperBroker::getStaticHelper('redirector');
