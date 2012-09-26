@@ -1,0 +1,31 @@
+<h1>Szukanie związków pomiędzy parametrami:</h1>
+<h3>1. Parametry mierzalne</h3>
+<?php echo $this->form;?>
+
+<?php if($this->r):?>
+    <div class="result">
+    <h3>Wynik</h3>
+    <p>Wielkość próbki: <?php echo $this->n;?> </p>
+    <p>Śr. wartość X: <?php echo $this->mx;?></p>
+    <p>Śr. wartość Y: <?php echo $this->my;?></p>
+    <h4>H: Czy istnieje korelacja pomiędzy poziomem <strong><?php echo $this->param1;?></strong> i poziomem <strong><?php echo $this->param2;?></strong></h4>
+    <h4>O:
+    <p>Wartość współczynnik korelacji = <?php echo $this->r;?></p>
+       <?php $abs = abs($this->r); $r= $this->r;?>
+
+        <?php if($abs >= 0.9):?>
+            Istnieje bardzo silna zależność pomiędzy poziomem <strong><?php echo $this->param1;?></strong> i poziomem <strong><?php echo $this->param2;?></strong>
+        <?php elseif($abs < 0.9 && $abs >= 0.7):?>
+            Istnieje dość silna zależność pomiędzy poziomem <strong><?php echo $this->param1;?></strong> i poziomem <strong><?php echo $this->param2;?></strong>
+        <?php elseif($abs < 0.7 && $abs >= 0.4):?>
+            Istnieje umiarkowana  zależność pomiędzy poziomem <strong><?php echo $this->param1;?></strong> i poziomem <strong><?php echo $this->param2;?></strong>
+        <?php elseif($abs < 0.4 && $abs >= 0.2):?>
+            Istnieje słaba  zależność pomiędzy poziomem <strong><?php echo $this->param1;?></strong> i poziomem <strong><?php echo $this->param2;?></strong>
+        <?php else:?>
+            Brak związku pomiędzy poziomem <strong><?php echo $this->param1;?></strong> i poziomem <strong><?php echo $this->param2;?></strong>
+
+            <?php endif;?>
+
+    </h4>
+    </div>
+<?php endif;?>
