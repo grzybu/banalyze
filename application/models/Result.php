@@ -135,5 +135,18 @@ class Application_Model_Result extends Application_Model_AbstractModel
         return $this->_mcv;
     }
 
+    public function getBySex($sex = null, $limit = 10){
+        $table = $this->getDbTable();
+
+        $where = $table->select()
+                        ->limit($limit)
+                        ->order(new Zend_Db_Expr("RAND()"));
+        if($sex && in_array($sex, "M", "K")) $where->where("sex = ?", $sex);
+
+        return $table->fetchAll($where);
+
+
+    }
+
 
 }

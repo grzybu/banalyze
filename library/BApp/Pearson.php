@@ -10,7 +10,7 @@ class BApp_Pearson
 {
     public function countPearsonCorrelationCoefficient($X, $Y)
     {
-        if(count($X) !== count($Y)) throw new Exception("Niezgodna wielkość prób");
+        if(count($X) !== count($Y) or count($X)*count($Y)==0) throw new Exception("Niezgodna wielkość prób, lub próba o zerowej liczebności    ");
 
         //wielkość próby
         $n = count($X);
@@ -34,15 +34,6 @@ class BApp_Pearson
             $sum_xiyi += $X[$i]*$Y[$i];
             $sum_xi2 += pow($X[$i],2);
             $sum_yi2 += pow($Y[$i],2);
-
-                $array[$i] = array(
-                    'xi' => $X[$i],
-                    'yi' => $Y[$i],
-                    'xiyi' => $X[$i]*$Y[$i],
-                    'xi2' => pow($X[$i],2),
-                    'yi2' => pow($Y[$i],2),
-
-                );
 
         }
 
